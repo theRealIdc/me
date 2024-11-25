@@ -7,9 +7,9 @@ import { cn } from "@/lib/utils";
 import { buttonVariants } from "@/components/ui/button";
 export const Header = () => {
   return (
-    <header className="sticky top-0 py-4">
+    <header className="overflow-y-auto sticky top py-2">
       <Section className="flex items-baseline ">
-        <h1 className="text-4xl font-bold text-white ">idc.com</h1>
+        <h1 className="text-4xl font-bold text-white ">IDC💻</h1>
         <div className="flex-1" />
         <ul className="flex items-center gap-4">
           <Link

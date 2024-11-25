@@ -6,7 +6,9 @@ export const Hero = () => {
     <Section className="flex max-md:flex-col items-start gap-4 ">
       <div className="flex-[3] w-full flex flex-col gap-4">
         <h2 className="text-5xl text-gray-300">Christevie Ikonga</h2>
-        <h3 className="text-3xl text-gray-300">Concepteur logiciel</h3>
+        <h3 className="text-3xl text-gray-300">
+          Concepteur logiciel & penstester
+        </h3>
         <p className="text-gray-300">
           👨🏾‍💻 Grand passionné de l&apos;informatique, je suis{" "}
           <b className="text-white hover:text-red-500">
@@ -15,7 +17,7 @@ export const Hero = () => {
           et{" "}
           <b className="text-white hover:text-red-500">pentester junior🔧🔒</b>.
           De nature curieux, j&apos;apprends et je m&apos;adapte très vite et je
-          ne mets souvent pas longtemps à trouver des solutions.
+          ne mets souvent pas longtemps à trouver des solutions aux problèmes.
         </p>
       </div>
       <div className="flex-[2] m-auto">

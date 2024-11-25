@@ -5,7 +5,7 @@ export const Section = (
   props: React.PropsWithChildren<{ className?: string }>
 ) => {
   return (
-    <section className={cn("max-w-3xl px-4 m-auto", props.className)}>
+    <section className={cn("max-w-6xl px-10 sm:px-4 m-auto", props.className)}>
       {props.children}
     </section>
   );
