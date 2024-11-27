@@ -2,7 +2,11 @@
 import { Section } from "./Section";
 import { Card } from "@/components/ui/card";
 import Link from "next/link";
-import { SideProjectsProps, WorkProps, ContactMeProps } from "@/types/types.ts";
+import {
+  SideProjectsProps,
+  WorkProps,
+  ContactMeProps,
+} from "../types/myTypes.ts";
 export const Status = () => {
   return (
     <Section className="flex max-md:flex-col items-start gap-4 ">
@@ -123,7 +127,7 @@ const WORK: WorkProps[] = [
   },
 ];
 
-const SideProject = (props: SideProjectProps) => {
+const SideProject = (props: SideProjectsProps) => {
   return (
     <Link
       href={props.url}
