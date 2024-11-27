@@ -7,7 +7,7 @@ export const Hero = () => {
       <div className="flex-[3] w-full flex flex-col gap-4">
         <h2 className="text-5xl text-gray-300">Christevie Ikonga</h2>
         <h3 className="text-3xl text-gray-300">
-          Concepteur logiciel & penstester
+          Concepteur logiciel & pentester
         </h3>
         <p className="text-gray-300">
           👨🏾‍💻 Grand passionné de l&apos;informatique, je suis{" "}
