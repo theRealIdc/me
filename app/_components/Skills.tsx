@@ -1,5 +1,4 @@
 import { Section } from "./Section";
-import { Badge } from "@/components/ui/badge";
 import { NestJsIcon } from "./icons/NestJsIcon";
 import { JsIcon } from "./icons/JsIcon";
 import { PythonIcon } from "./icons/PythonIcon";
