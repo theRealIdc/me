@@ -2,7 +2,7 @@
 import { Section } from "./Section";
 import { Card } from "@/components/ui/card";
 import Link from "next/link";
-import { SideProjectsProps, WorkProps, ContactMeProps } from "./types/types";
+import { SideProjectsProps, WorkProps, ContactMeProps } from "@/types/types";
 export const Status = () => {
   return (
     <Section className="flex max-md:flex-col items-start gap-4 ">
